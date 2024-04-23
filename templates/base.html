@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>base</title>
+
+</head>
+<link rel="stylesheet" href="../static/css/style.css"> <!--Link para CSS-->
+<!--Corpo da página-->
+
+<body id="corpo">
+    
+        <header  id="cabeçalho"> <!--Início do cabeçalho-->
+
+                <div id="linhacabeçalho">
+                        <img src="../static/images/Logoceasing1.png" alt="Logo" id="logo"> <!--Logo para cabeçalho-->
+
+                        <span id="nome">
+                        </span>
+
+                        <span id="links">
+                        <a href="">Sobre mim</a>|<a href="">Artes já feitas</a>|<a href="">Redes sociais</a>
+                    </span>
+                </div>
+
+        </header>
+
+        {% block contents %}
+
+        {% endblock %}
+        
+</body>
+</html>
