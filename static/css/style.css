@@ -1,0 +1,101 @@
+
+/*Somente relacionado ao cabeçalho da base*/
+#cabeçalho {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    height: 16vh;
+    background-color: rgb(170, 193, 207);
+    z-index: 1000;
+    border-bottom: 5px solid rgb(56, 56, 56);
+}
+
+#logo { 
+    margin-left: 5%;
+    margin-top: 7px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+#links {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+    color: rgb(4, 64, 64);
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover {
+    color:rgb(10, 30, 204);
+}
+
+a:link {
+    color:rgb(10, 30, 204);
+}
+
+a:active {
+    color:rgb(64, 93, 146);
+}
+
+a:visited {
+    color:rgb(64, 93, 146);
+}
+
+.buttons {
+    background-color: rgb(199, 199, 199);
+    text-decoration: none;
+}
+
+/*Relacionado ao fundo base*/
+#corpo {
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+/*Relacionado ao conteúdo*/
+.conteudo1 {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #E5E5E5;
+    margin-top: 8%;
+    text-align: center;
+    border-left: 5px rgb(56, 56, 56);
+    border-right: 5px rgb(56, 56, 56);
+    align-content: center;
+}
+
+.titulo {
+    align-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#texto1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 75%;
+    max-width: 80%;
+    margin: 0 auto ;
+}
+
+#texto2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 75%;
+    max-width: 80%;
+    margin: 0 auto ;
+}
+
+#texto3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-width: 75%;
+    max-width: 80%;
+    margin: 0 auto ;
+}
