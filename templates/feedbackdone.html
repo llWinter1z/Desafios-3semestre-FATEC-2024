@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+<body id="corpo">
+
+    {% block contents %}
+    <div class="conteudo3">
+
+        <div>
+            <h1 class="titulo">Muito obrigado!</h1>
+            <p id="textofeedback">O seu feedback me inspira a continuar a fazer sites como esse para futuros projetos!</p>
+
+
+            <br><br>
+            
+            <img src="" alt="obrigado">
+
+            <br><br><br><br><br>
+
+            <p id="textofeedback">Agora, que tal dar uma olhada nas minhas redes sociais?</p>
+            <button type="button" class="buttons" style="margin-left: auto; margin-right: auto;"><a href="redes.html" class="text-decoration-none">Feedback</a></button>
+
+
+        </div>
+
+        <br><br><br>
+
+        <ul>
+            {% for task in feedbacktb %}
+            <li>{{ task[0] }} - Due: {{ task[1] }}</li>
+            {% endfor %}
+        </ul>
+
+    </div>
+
+    {% endblock %}
+    
+</body>
+</html>
