@@ -6,7 +6,7 @@
 
 **Made by** Fabio Eyki
 
-[Sobre o projeto (PT-BR)](Objetivo)
+[Sobre o projeto (PT-BR)](Objetivo:)
 ------------------
 
 #### **Objetivo:**
