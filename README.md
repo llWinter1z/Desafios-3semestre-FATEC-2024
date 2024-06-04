@@ -1,4 +1,4 @@
-# FATEC SJC 2024
+<h1 align="center">FATEC SJC 2024</h1>
 
 <br>
 
@@ -6,11 +6,13 @@
 
 **Made by** Fabio Eyki
 
-[Sobre o projeto (PT-BR)](ptbr)
+- [Sobre (PT-BR)](https://github.com/llWinter1z/Desafios-3semestre-FATEC-2024/edit/Desafio-4-0.0.2/README.md#sobre-pt-br)
+
+- [Sobre (ENG)]()
 
 ------------------
 
-# <h1 align="center" id="ptbr">Sobre (PT-BR):</h1>
+<h1 align="center">Sobre (PT-BR):</h1>
 
 #### **Objetivo:**
 
@@ -32,7 +34,7 @@ O uso de cada uma dessas tecnologias foi separado em etapas denominadas "Desafio
 * Desafio 1: Desenvolvimento de um site pré-determinado usando HTML e CSS;
 * Desafio 2: Uso do Flask para este mesmo site;
 * Desafio 3: Desenvolvimento de um site próprio para o aluno;
-* Desafio 4
+* Desafio 4: Criação de um banco de dados usando SQL;
 
 <br><br>
 
