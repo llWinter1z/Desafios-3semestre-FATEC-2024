@@ -18,7 +18,7 @@
 
 <br>
 
-- [Sobre (PT-BR)](https://github.com/llWinter1z/Desafios-3semestre-FATEC-2024/edit/Desafio-4-0.0.2/README.md#sobre-pt-br)
+- [Sobre (PT-BR)](https://github.com/llWinter1z/Desafios-3semestre-FATEC-2024/blob/Desafio-4-0.0.2/README.md#sobre-pt-br)
 
 - [About (ENG)]()
 
