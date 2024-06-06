@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+
+<body id="corpo">
+
+    {% block contents %}
+    <div class="conteudo3">
+
+        <br><br><br><br><br><br>
+
+        <h1 class="titulo">Mostre sua opinião!</h1>
+
+        <form action="/add" method="POST" id="contato">
+
+            <div>
+                <p id="textofeedback">Diga aqui o seu belo nome...</p>
+                <p><input id="inputfeedback2" type="text" name="nome" placeholder="Nome" required></p>
+
+                <br><br><br>
+
+                <p id="textofeedback">O seu e-mail de contato...</p>
+                <p><input id="inputfeedback2" type="email" name="email" placeholder="exemplo7585@email.com" required></p>
+
+                <br><br><br>
+
+                <p id="textofeedback">E o que você achou desse protótipo de site que fiz! </p>
+                <p><textarea id="myTextarea" class="inputfeedback1" type="text" name="feedback" placeholder="" required id="textofeedbackdone"></textarea>
+                <p style="color: aliceblue; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Letras restantes: <span id="charCount">0</span>/300</p>
+                <h6 id="erro" style="color: rgb(197, 23, 23); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"></h6>
+
+                <script>
+                    const textarea = document.getElementById('myTextarea');
+                    const charCount = document.getElementById('charCount');
+                    const maxChars = 300;
+            
+                    textarea.addEventListener('input', function () {
+                        const inputText = this.value;
+                        const remainingChars = maxChars - inputText.length;
+            
+                        // Update the character count display
+                        charCount.textContent = remainingChars;
+            
+                        // Display an error message if the limit is exceeded
+                        if (remainingChars < 0) {
+                            document.getElementById("erro").textContent = "Há letras demais!";
+                            this.value = inputText.slice(0, maxChars);
+                        } else {
+                            document.getElementById("erro").textContent = ""; // Clear the error message
+                        }
+                    });
+                </script>
+
+                <br><br><br>
+
+                <p id="textofeedback">Agora é só enviar! Fácil, não?</p>
+                <p><button type="submit" id="btnfeedback">Enviar</button></p>
+            </div>
+
+        </form>
+
+    </div>
+
+    {% endblock %}
+    
+</body>
+</html>
