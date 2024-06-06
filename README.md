@@ -49,7 +49,7 @@ O uso de cada uma dessas tecnologias foi separado em etapas denominadas "Desafio
 
 * Desafio 1: Desenvolvimento de páginas pré-determinadas usando HTML e CSS;
 * Desafio 2: Uso do Flask para este mesmo website;
-* Desafio 3: Desenvolvimento de um site próprio para o aluno, usando seus próprios estilos;
+* Desafio 3: Desenvolvimento de um site próprio para o aluno, usando seus próprios estilos e bootstrap;
 * Desafio 4: Criação de um banco de dados usando SQL;
 
 <br>
@@ -81,5 +81,14 @@ Each use of those technologies was separated by stages named 'Desafios', going f
 
 * Desafio 1: Development of a predetermined pages using HTML and CSS;
 * Desafio 2: Usage of the Flask for that same website;
-* Desafio 3: Development of the student's own website, using his own themes;
+* Desafio 3: Development of the student's own website, using his own themes and bootstrap;
 * Desafio 4: Creation of a database using SQL;
+
+------------------------------------
+
+<h2 align="center">Notas das atualizações:</h2>
+
+| Versões  | Problemas                             | Soluções |
+| :------- | :-----------------------------------: | :------: |
+| desafio1 | Sem problemas durante desenvolvimento |   -//-   |
+| desafio2+3 | Confusão com o funcionamento do Flask devido ao sistema de segurança do Windows| Alteração das políticas de segurança para o dispositivo | 
