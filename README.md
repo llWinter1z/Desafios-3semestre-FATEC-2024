@@ -24,6 +24,8 @@
 
 ------------------
 
+<br>
+
 <h2 align="center">Sobre (PT-BR):</h2>
 
 ### **Objetivo:**
@@ -77,6 +79,8 @@ The website of which this README is part of used various technologies during it'
 * SQL database manager;
 * Python programming language;
 
+<br>
+
 Each use of those technologies was separated by stages named 'Desafios', going from Desafio 1 towards the 4, currently:
 
 * Desafio 1: Development of a predetermined pages using HTML and CSS;
@@ -84,11 +88,30 @@ Each use of those technologies was separated by stages named 'Desafios', going f
 * Desafio 3: Development of the student's own website, using his own themes and bootstrap;
 * Desafio 4: Creation of a database using SQL;
 
+<br>
+
 ------------------------------------
 
-<h2 align="center">Notas das atualizações:</h2>
+<br>
 
-| Versões  | Problemas                             | Soluções |
-| :------- | :-----------------------------------: | :------: |
-| desafio1 | Sem problemas durante desenvolvimento |   -//-   |
-| desafio2+3 | Confusão com o funcionamento do Flask devido ao sistema de segurança do Windows| Alteração das políticas de segurança para o dispositivo | 
+<h2 align="center">Como instalar:</h2>
+
+### **Aplicativos necessários:**
+
+* Visual Studio Code;
+
+### **Passo-a-passo:**
+1. Baixar os arquivos como um aquivo .zip;
+2. Extrair os arquivos e selecionar um diretório para estes;
+3. Abrir o VS Code e clicar em "file", e logo em seguida, em "open folder";
+4. Encontrar o diretório dos arquivos extraidos anteriormente, selecioná-los e abri-los;
+5. Através do botão "terminal", criar um novo terminal PowerShell;
+6. Dentro do terminal, colocar esses comandos em ordem:
+     * pip install -r requirements.txt;
+     * python -m venv venv;
+     * venv\Scripts\activate;
+     * flask run;
+
+      <sup>Talvez possa ser necessário alterar algumas políticas do Windows para que este último funcione.</sup>
+7. clicar no link resultante, que parecerá como algo assim:
+     * http://127.0.0.1:500/
