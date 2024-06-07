@@ -12,9 +12,9 @@
 
 <br>
 
-**Versão atual do site:** 0.0.2
+**Versão atual do site:** 0.0.3 :construction: Em desenvolvimento :construction:
 
-<sup>**Current website version:** 0.0.2</sup>
+<sup>**Current website version:** 0.0.3 :construction: Under development :construction:</sup>
 
 <br>
 
