@@ -38,10 +38,10 @@ Esse pequeno projeto tem dois objetivos em mente. A primeira é instruir os alun
 
 O website do qual este README faz parte utilizou várias tecnologias em seu desenvolvimento. Entre elas, estão:
 
-* Framework Flask;
+* _Framework_ Flask;
 * Linguagem de marcação HTML;
-* Cascading Style Sheets (CSS);
-* Framework Bootstrap;
+* _Cascading Style Sheets_ (CSS);
+* _Framework_ Bootstrap;
 * Gerenciador de banco de dados SQL;
 * Linguagem de programação Python;
 
@@ -62,31 +62,31 @@ O uso de cada uma dessas tecnologias foi separado em etapas denominadas "Desafio
 
 <h2 align="center">About (ENG):</h2>
 
-### **Goal:**
+### **_Goal:_**
 
-This little project has two goals in mind. The first one is to educate the students to create a website based on HTML, using resources like flask, css and bootstrap. The second one consists on readying the students for an activity named 'API', where there will be a simulation in which a website will be developed and presented to the clients, who are going to be the subject instructors.
-
-<br>
-
-### **How it was done:**
-
-The website of which this README is part of used various technologies during it's development. Some of those were:
-
-* Flask Framework ;
-* HTML markup language;
-* Cascading Style Sheets (CSS);
-* Bootstrap Framework ;
-* SQL database manager;
-* Python programming language;
+_This little project has two goals in mind. The first one is to educate the students to create a website based on HTML, using resources like flask, css and bootstrap. The second one consists on readying the students for an activity named 'API', where there will be a simulation in which a website will be developed and presented to the clients, who are going to be the subject instructors._
 
 <br>
 
-Each use of those technologies was separated by stages named 'Desafios', going from Desafio 1 towards the 4, currently:
+### **_How it was done:_**
 
-* Desafio 1: Development of a predetermined pages using HTML and CSS;
-* Desafio 2: Usage of the Flask for that same website;
-* Desafio 3: Development of the student's own website, using his own themes and bootstrap;
-* Desafio 4: Creation of a database using SQL;
+_The website of which this README is part of used various technologies during it's development. Some of those were:_
+
+* Flask _Framework_ ;
+* HTML _markup language_;
+* _Cascading Style Sheets_ (CSS);
+* Bootstrap _Framework_;
+* SQL _database manager_;
+* Python _programming language_;
+
+<br>
+
+_Each use of those technologies was separated by stages named 'Desafios', going from Desafio 1 towards the 4, currently:_
+
+* Desafio 1: _Development of a predetermined pages using HTML and CSS_;
+* Desafio 2: _Usage of the Flask for that same website_;
+* Desafio 3: _Development of the student's own website, using his own themes and bootstrap_;
+* Desafio 4: _Creation of a database using SQL_;
 
 <br>
 
