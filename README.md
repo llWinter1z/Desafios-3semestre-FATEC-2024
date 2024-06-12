@@ -115,3 +115,5 @@ _Each use of those technologies was separated by stages named 'Desafios', going 
       <sup>Talvez possa ser necessário alterar algumas políticas do Windows para que este último funcione.</sup>
 7. clicar no link resultante, que parecerá como algo assim:
      * http://127.0.0.1:500/
+
+IMPORTANTE: Quando instalado, as páginas de feedback não funcionarão devido às configurações de banco de dados!
