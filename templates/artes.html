@@ -1,0 +1,161 @@
+{% extends 'base.html' %}
+
+
+<body id="corpo">
+
+    {% block contents %}
+
+
+    <!--Lista de fotos-->
+    <div class="conteudo2">
+            <br><br><br>
+            <h3 class="titulo">Lista de desenhos de minha autoria</h3>
+            <div class="container1">
+
+                <!--Imagens (USAR 100X100)-->
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Desenho1">
+                    <img src="../static/images/Drawingspre/Desenho1.png" class="desenho" alt="art1">
+                    <h6>Desenho 1</h6>
+                    <h6>(15/12/2023)</h6>
+                </button>
+
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Desenho2">
+                    <img src="../static/images/Drawingspre/Desenho2.png" class="desenho" alt="art2">
+                    <h6>Desenho 2</h6>
+                    <h6>(11/02/2024)</h6>
+                </button>
+
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Desenho3">
+                    <img src="../static/images/Drawingspre/Desenho3pre.png" class="desenho" alt="art3">
+                    <h6>Desenho 3</h6>
+                    <h6>(15/03/2024)</h6>
+                </button>
+
+                <!--Fim das imagens-->
+            </div>
+
+            <h3 class="titulo">Lista de desenhos a serem terminados</h3>
+            <div class="container1">
+
+                <!--Imagens pra terminar (USAR 100X100)-->
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Desenho1fin">
+                    <img src="../static/images/Drawingstofinpre/Drawingtofin1pre.png" class="desenho" alt="art1">
+                    <h6>Desenho 1</h6>
+                    <h6>(15/10/2023)</h6>
+                </button>
+            </div>
+
+                <!--Fim das imagens para terminar-->
+
+            <h3 class="titulo">Lista de collabs e commissions</h3>
+            <div class="container1">
+    
+                    <!--Imagens collabs ou comissions (USAR 100X100)-->
+                    <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#Collab1">
+                        <img src="../static/images/CollabsAndCommspre/Collab 1.png" class="desenho" alt="art1">
+                        <h6>Collab 1 with Colby</h6>
+                        <h6>(06/04/2024)</h6>
+                    </button>
+
+    <!--Janelas para ampliar as imagens-->
+        <div class="modal fade" id="Desenho1" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h5 class="modal-title" id="imagemModalLabel">Desenho 1 - Feito em (15/12/2023)</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../static/images/Drawings/Desenho1final.png" class="img-fluid" alt="Minha Imagem">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="Desenho2" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h5 class="modal-title" id="imagemModalLabel">Desenho 2 - Feito em (11/02/2024)</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../static/images/Drawings/Desenhofinal2.png" class="img-fluid" alt="Minha Imagem">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="Desenho3" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h5 class="modal-title" id="imagemModalLabel">Desenho 3 - Feito em (15/03/2024)</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../static/images/Drawings/Desenho3final.png" class="img-fluid" alt="Minha Imagem">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--Janelas para ampliar as imagens pra terminar-->
+        <div class="modal fade" id="Desenho1fin" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h5 class="modal-title" id="imagemModalLabel">Desenho 1 - Feito em (15/10/2023)</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../static/images/Drawingstofin/Drawingtofin1.png" class="img-fluid" alt="Minha Imagem">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--Janelas para ampliar as collabs e comms-->
+        <div class="modal fade" id="Collab1" tabindex="-1" role="dialog" aria-labelledby="imagemModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <h5 class="modal-title" id="imagemModalLabel">Collab 1 with Colby - Feito em (06/04/2024)</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../static/images/CollabsAndComms/Collab1.png" class="img-fluid" alt="Minha Imagem">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                document.querySelector('img').addEventListener('contextmenu', (e) => {
+                    e.preventDefault();
+                })
+            })
+        </script>
+    </div>
+    </div>
+
+    {% endblock %}
+
+</body>
+</html>
