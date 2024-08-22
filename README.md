@@ -107,10 +107,10 @@ _Each use of those technologies was separated by stages named 'Desafios', going 
 4. Encontrar o diretório dos arquivos extraidos anteriormente, selecioná-los e abri-los;
 5. Através do botão "terminal", criar um novo terminal PowerShell;
 6. Dentro do terminal, colocar esses comandos em ordem:
-     * pip install -r requirements.txt;
-     * python -m venv venv;
-     * venv\Scripts\activate;
-     * flask run;
+     * <code>pip install -r requirements.txt</code>;
+     * <code>python -m venv venv</code>;
+     * <code>venv\Scripts\activate</code>;
+     * <code>flask run</code>;
 
       <sup>Talvez possa ser necessário alterar algumas políticas do Windows para que este último funcione.</sup>
 7. clicar no link resultante, que parecerá como algo assim:
